@@ -458,8 +458,9 @@ def ensure_rosetta():
         print(f"Error checking/installing Rosetta: {e}", flush=True)
 
 if __name__ == "__main__":
-    ensure_rosetta()
+    #ensure_rosetta()
     app = QApplication(sys.argv)
     window = PDFExtractorApp()
     window.show()
     sys.exit(app.exec())
+
